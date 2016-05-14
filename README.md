@@ -1,9 +1,9 @@
-# com-chilipeppr-widget-claure
-This example widget gives you a framework for creating your own widget. Please change this description once you fork this claure and create your own widget. Make sure to run runme.js every time you are done editing your code so you can regenerate your README.md file, regenerate your auto-generated-widget.html, and automatically push your changes to Github.
+# com-messageminder-widget
+message
 
 ![alt text](screenshot.png "Screenshot")
 
-## ChiliPeppr Widget / claure
+## ChiliPeppr Widget / messageminder
 
 All ChiliPeppr widgets/elements are defined using cpdefine() which is a method
 that mimics require.js. Each defined object must have a unique ID so it does
@@ -11,9 +11,9 @@ not conflict with other ChiliPeppr widgets.
 
 | Item                  | Value           |
 | -------------         | ------------- | 
-| ID                    | com-chilipeppr-widget-claure |
-| Name                  | Widget / claure |
-| Description           | This example widget gives you a framework for creating your own widget. Please change this description once you fork this claure and create your own widget. Make sure to run runme.js every time you are done editing your code so you can regenerate your README.md file, regenerate your auto-generated-widget.html, and automatically push your changes to Github. |
+| ID                    | com-messageminder-widget |
+| Name                  | Widget / messageminder |
+| Description           | message |
 | chilipeppr.load() URL | http://raw.githubusercontent.com/fskemery/minder-zw/master/auto-generated-widget.html |
 | Edit URL              | http://ide.c9.io/fskemery/minder-zw |
 | Github URL            | http://github.com/fskemery/minder-zw |
@@ -29,20 +29,20 @@ back the instance of it.
 
 ```javascript
 // Inject new div to contain widget or use an existing div with an ID
-$("body").append('<' + 'div id="myDivWidgetClaure"><' + '/div>');
+$("body").append('<' + 'div id="myDivComMessageminderWidget"><' + '/div>');
 
 chilipeppr.load(
-  "#myDivWidgetClaure",
+  "#myDivComMessageminderWidget",
   "http://raw.githubusercontent.com/fskemery/minder-zw/master/auto-generated-widget.html",
   function() {
-    // Callback after widget loaded into #myDivWidgetClaure
+    // Callback after widget loaded into #myDivComMessageminderWidget
     // Now use require.js to get reference to instantiated widget
     cprequire(
-      ["inline:com-chilipeppr-widget-claure"], // the id you gave your widget
-      function(myObjWidgetClaure) {
+      ["inline:com-messageminder-widget"], // the id you gave your widget
+      function(myObjComMessageminderWidget) {
         // Callback that is passed reference to the newly loaded widget
-        console.log("Widget / claure just got loaded.", myObjWidgetClaure);
-        myObjWidgetClaure.init();
+        console.log("Widget / messageminder just got loaded.", myObjComMessageminderWidget);
+        myObjComMessageminderWidget.init();
       }
     );
   }
@@ -64,7 +64,7 @@ To better understand how ChiliPeppr's subscribe() method works see amplify.js's 
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>/com-chilipeppr-widget-claure/onExampleGenerate</td><td>Example: Publish this signal when we go to generate gcode.</td></tr>    
+      <tr valign="top"><td>/com-messageminder-widget/onExampleGenerate</td><td>Example: Publish this signal when we go to generate gcode.</td></tr>    
       </tbody>
   </table>
 
@@ -132,7 +132,7 @@ The table below shows, in order, the methods and properties inside the widget/el
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-widget-claure"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Widget / claure"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"This example widget gives you a framework for creating your own widget. Please change this description once you fork this claure and create your own widget. Make sure to run runme.js every time you are done editing your code so you can regenerate your README.md file, regenerate your auto-generated-widget.html, and automatically push your changes to Github."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/fskemery/minder-zw/master/auto-generated-widget.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/fskemery/minder-zw"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/fskemery/minder-zw"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://minder-zw-fskemery.c9users.io/widget.html"</td></tr><tr valign="top"><td>publish</td><td>object</td><td>Please see docs above.<br><br>Define the publish signals that this widget/element owns or defines so that
+      <tr valign="top"><td>id</td><td>string</td><td>"com-messageminder-widget"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Widget / messageminder"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"message"</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/fskemery/minder-zw/master/auto-generated-widget.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/fskemery/minder-zw"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/fskemery/minder-zw"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://minder-zw-fskemery.c9users.io/widget.html"</td></tr><tr valign="top"><td>publish</td><td>object</td><td>Please see docs above.<br><br>Define the publish signals that this widget/element owns or defines so that
 other widgets know how to subscribe to them and what they do.</td></tr><tr valign="top"><td>subscribe</td><td>object</td><td>Please see docs above.<br><br>Define the subscribe signals that this widget/element owns or defines so that
 other widgets know how to subscribe to them and what they do.</td></tr><tr valign="top"><td>foreignPublish</td><td>object</td><td>Please see docs above.<br><br>Document the foreign publish signals, i.e. signals owned by other widgets
 or elements, that this widget/element publishes to.</td></tr><tr valign="top"><td>foreignSubscribe</td><td>object</td><td>Please see docs above.<br><br>Document the foreign subscribe signals, i.e. signals owned by other widgets

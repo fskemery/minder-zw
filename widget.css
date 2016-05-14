@@ -1,6 +1,6 @@
 /* CSS for ChiliPeppr Widget */
 
-#com-chilipeppr-widget-claure {
+#com-messageminder-widget {
     position: absolute;
     /*top:0px;*/
     /*left:0px;*/
@@ -16,14 +16,14 @@
     /*z-index: -1;*/
 }
 
-#com-chilipeppr-widget-claure .panel-wrapper {
+#com-messageminder-widget .panel-wrapper {
     /*position: absolute;*/
     /*bottom:20px;*/
     /*right:20px;*/
     /*width:300px;*/
 }
 
-#com-chilipeppr-widget-claure button {
+#com-messageminder-widget button {
     font: inherit;
     margin: 0;
     overflow: visible;
@@ -31,15 +31,15 @@
     -webkit-appearance: button;
 }
 
-#com-chilipeppr-widget-claure:before {
+#com-messageminder-widget:before {
     box-sizing: border-box;
 }
 
-#com-chilipeppr-widget-claure:after {
+#com-messageminder-widget:after {
     box-sizing: border-box;
 }
 
-#com-chilipeppr-widget-claure .nav-tabs>li>a {
+#com-messageminder-widget .nav-tabs>li>a {
     padding: 2px 6px;
 }
 
@@ -89,7 +89,7 @@
     float: right!important;
 }
 
-#com-chilipeppr-widget-claure .btn {
+#com-messageminder-widget .btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
@@ -109,7 +109,7 @@
     user-select: none;
 }
 
-#com-chilipeppr-widget-claure .btn-default {
+#com-messageminder-widget .btn-default {
     color: #333 !important;
     background-color: #fff !important;
     border-color: #ccc !important;
@@ -130,53 +130,53 @@
     float: left;
 }
 
-#com-chilipeppr-widget-claure .btn-group,
-#com-chilipeppr-widget-claure .btn-group-vertical {
+#com-messageminder-widget .btn-group,
+#com-messageminder-widget .btn-group-vertical {
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
 
-#com-chilipeppr-widget-claure .btn-group>.btn:first-child {
+#com-messageminder-widget .btn-group>.btn:first-child {
     margin-left: 0;
 }
 
-#com-chilipeppr-widget-claure .btn-group>.btn,
-#com-chilipeppr-widget-claure .btn-group-vertical>.btn {
+#com-messageminder-widget .btn-group>.btn,
+#com-messageminder-widget .btn-group-vertical>.btn {
     position: relative;
     float: left;
 }
 
-#com-chilipeppr-widget-claure .btn-xs,
-#com-chilipeppr-widget-claure .btn-group-xs>.btn {
+#com-messageminder-widget .btn-xs,
+#com-messageminder-widget .btn-group-xs>.btn {
     padding: 1px 5px;
     font-size: 12px;
     line-height: 1.5;
     border-radius: 3px;
 }
 
-#com-chilipeppr-widget-claure .btn:hover,
-#com-chilipeppr-widget-claure .btn:focus {
+#com-messageminder-widget .btn:hover,
+#com-messageminder-widget .btn:focus {
     color: #333;
     text-decoration: none;
 }
 
-#com-chilipeppr-widget-claure .btn-group>.btn:hover,
-#com-chilipeppr-widget-claure .btn-group-vertical>.btn:hover,
-#com-chilipeppr-widget-claure .btn-group>.btn:focus,
-#com-chilipeppr-widget-claure .btn-group-vertical>.btn:focus,
-#com-chilipeppr-widget-claure .btn-group>.btn:active,
-#com-chilipeppr-widget-claure .btn-group-vertical>.btn:active,
-#com-chilipeppr-widget-claure .btn-group>.btn.active,
-#com-chilipeppr-widget-claure .btn-group-vertical>.btn.active {
+#com-messageminder-widget .btn-group>.btn:hover,
+#com-messageminder-widget .btn-group-vertical>.btn:hover,
+#com-messageminder-widget .btn-group>.btn:focus,
+#com-messageminder-widget .btn-group-vertical>.btn:focus,
+#com-messageminder-widget .btn-group>.btn:active,
+#com-messageminder-widget .btn-group-vertical>.btn:active,
+#com-messageminder-widget .btn-group>.btn.active,
+#com-messageminder-widget .btn-group-vertical>.btn.active {
     z-index: 2;
 }
 
-#com-chilipeppr-widget-claure .btn-default:hover,
-#com-chilipeppr-widget-claure .btn-default:focus,
-#com-chilipeppr-widget-claure .btn-default:active,
-#com-chilipeppr-widget-claure .btn-default.active,
-#com-chilipeppr-widget-claure .open .dropdown-toggle.btn-default {
+#com-messageminder-widget .btn-default:hover,
+#com-messageminder-widget .btn-default:focus,
+#com-messageminder-widget .btn-default:active,
+#com-messageminder-widget .btn-default.active,
+#com-messageminder-widget .open .dropdown-toggle.btn-default {
     color: #333 !important;
     background-color: #ebebeb !important;
     border-color: #adadad !important;
@@ -235,7 +235,7 @@
     padding: 10px 15px;
 }
 
-#com-chilipeppr-widget-claure .tab-content>.active {
+#com-messageminder-widget .tab-content>.active {
     display: block;
     font-size: 14px;
 }
@@ -365,7 +365,7 @@
 .glyphicon-lock:before {
     content: "\e033";
 }
-#com-chilipeppr-widget-claure .form-control {
+#com-messageminder-widget .form-control {
     margin: 0;
     display: block;
     /*width: 100%;*/
@@ -383,48 +383,48 @@
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-#com-chilipeppr-widget-claure .input-group {
+#com-messageminder-widget .input-group {
     position: relative;
     display: table;
     border-collapse: separate;
 }
-#com-chilipeppr-widget-claure .input-group .form-control {
+#com-messageminder-widget .input-group .form-control {
     position: relative;
     z-index: 2;
     float: left;
     width: 100%;
     margin-bottom: 0;
 }
-#com-chilipeppr-widget-claure .input-group .form-control:first-child {
+#com-messageminder-widget .input-group .form-control:first-child {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
 }
-#com-chilipeppr-widget-claure .input-group-addon, #com-chilipeppr-widget-claure .input-group-btn, #com-chilipeppr-widget-claure .input-group .form-control {
+#com-messageminder-widget .input-group-addon, #com-messageminder-widget .input-group-btn, #com-messageminder-widget .input-group .form-control {
     display: table-cell;
 }
-#com-chilipeppr-widget-claure .input-group-btn:last-child>.btn, #com-chilipeppr-widget-claure .input-group-btn:last-child>.btn-group {
+#com-messageminder-widget .input-group-btn:last-child>.btn, #com-messageminder-widget .input-group-btn:last-child>.btn-group {
     margin-left: -1px;
 }
-#com-chilipeppr-widget-claure .input-group-btn>.btn:hover, #com-chilipeppr-widget-claure .input-group-btn>.btn:focus, #com-chilipeppr-widget-claure .input-group-btn>.btn:active {
+#com-messageminder-widget .input-group-btn>.btn:hover, #com-messageminder-widget .input-group-btn>.btn:focus, #com-messageminder-widget .input-group-btn>.btn:active {
     z-index: 2;
 }
-#com-chilipeppr-widget-claure .input-group .form-control:last-child, #com-chilipeppr-widget-claure .input-group-addon:last-child, #com-chilipeppr-widget-claure .input-group-btn:last-child>.btn, #com-chilipeppr-widget-claure .input-group-btn:last-child>.btn-group>.btn, #com-chilipeppr-widget-claure .input-group-btn:last-child>.dropdown-toggle, #com-chilipeppr-widget-claure .input-group-btn:first-child>.btn:not(:first-child), #com-chilipeppr-widget-claure .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+#com-messageminder-widget .input-group .form-control:last-child, #com-messageminder-widget .input-group-addon:last-child, #com-messageminder-widget .input-group-btn:last-child>.btn, #com-messageminder-widget .input-group-btn:last-child>.btn-group>.btn, #com-messageminder-widget .input-group-btn:last-child>.dropdown-toggle, #com-messageminder-widget .input-group-btn:first-child>.btn:not(:first-child), #com-messageminder-widget .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
-#com-chilipeppr-widget-claure .input-group-btn>.btn {
+#com-messageminder-widget .input-group-btn>.btn {
     position: relative;
 }
-#com-chilipeppr-widget-claure .input-group-btn {
+#com-messageminder-widget .input-group-btn {
     position: relative;
     font-size: 0;
     white-space: nowrap;
 }
-#com-chilipeppr-widget-claure .input-group-addon, #com-chilipeppr-widget-claure .input-group-btn {
+#com-messageminder-widget .input-group-addon, #com-messageminder-widget .input-group-btn {
     width: 1%;
     white-space: nowrap;
     vertical-align: middle;
 }
-#com-chilipeppr-widget-claure .input-group-addon, #com-chilipeppr-widget-claure .input-group-btn, #com-chilipeppr-widget-claure .input-group .form-control {
+#com-messageminder-widget .input-group-addon, #com-messageminder-widget .input-group-btn, #com-messageminder-widget .input-group .form-control {
     display: table-cell;
 }
