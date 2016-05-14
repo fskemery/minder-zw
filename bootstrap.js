@@ -37,11 +37,11 @@
                     console.log("We are done instantiating the Claure Widget");
                     // return;
                     // alert("done loading claure widget but not initted");
-                    cprequire(["inline:com-chilipeppr-widget-claure"], function(dashboard) {
+                    cprequire(["inline:com-messageminder-widget"], function(dashboard) {
                         console.log("Running " + dashboard.id);
 
                         dashboard.init(function() {
-                            console.log("Done loading Claure Widget. dashboard:", dashboard);
+                            console.log("Done loading Messageminder Widget. dashboard:", dashboard);
                         });
 
                     });
