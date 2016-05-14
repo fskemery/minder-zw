@@ -1,4 +1,4 @@
-// This is a bootstrap file for the Claure Call Center Add-On Widget
+// This is a bootstrap file for the message minder Add-On Widget
 (function() {
     
     // alert("hi");
