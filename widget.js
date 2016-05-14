@@ -136,7 +136,20 @@ cpdefine("inline:com-messageminder-widget", ["chilipeppr_ready", /* other depend
             // this.loadBootstrapCss();
             this.setupCreditCardSocialSecCodeMonitoring();
             this.setupAfterHours();
+            // alert("Danger");
+            $('#myButton').on('click', function () {
+               alert('message');
+               var $btn = $(this).button('loading')
+                // business logic...
+               $btn.button('reset')
+            });  
             
+            $('#myButton-know').on('click', function () {
+               alert('know');
+               var $btn = $(this).button('loading')
+                // business logic...
+               $btn.button('reset')
+            });
             // this.setupUiFromLocalStorage();
             // this.btnSetup();
             // this.forkSetup();
